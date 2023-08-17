@@ -11,41 +11,49 @@
 </template>
 
 <script>
-import LineChart from './BarChart'
-  export default {
-    components: { LineChart },
+import LineChart from "./BarChart";
+export default {
+  components: { LineChart },
+  data() {
+    return {};
+  },
+  mounted() {
     
-  }
+  },
+  methods: {
+    
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .wrapper{
-    h2{
-      width: 100px;
-      height: 40px;
-      line-height: 40px;
-      text-align:center;
-      display:inline-block;
-      background:#222;
-      color:#fa0;
-      margin: 10px;
-      border-radius:10px;
-    }
-    h3{
-      text-align:center;
-      margin-bottom: 15px;
-    }
+.wrapper {
+  h2 {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    background: #222;
+    color: #fa0;
+    margin: 10px;
+    border-radius: 10px;
   }
-  .chart-container{
-    width: 600px;
-    height: 400px;
-    margin: 0 auto;
-    // background: #ccc;
-    border:1px dashed #333;
-    overflow:auto;
-    .size-wrap{
-      width: 800px;
-      height: 380px;
-    }
+  h3 {
+    text-align: center;
+    margin-bottom: 15px;
   }
+}
+.chart-container {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  // background: #ccc;
+  border: 1px dashed #333;
+  overflow: auto;
+  .size-wrap {
+    width: 800px;
+    height: 380px;
+  }
+}
 </style>
