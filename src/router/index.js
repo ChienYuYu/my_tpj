@@ -19,6 +19,11 @@ const routes = [
     path: '/20230816/ChartTest01',
     name: 'chart01',
     component: () => import(/* webpackChunkName: "about" */ '../views/20230816/ChartTest01.vue')
+  },
+  {
+    path: '/20230903/ScrollTest',
+    name: 'chart01',
+    component: () => import(/* webpackChunkName: "about" */ '../views/20230903/ScrollTest.vue')
   }
 ]
 

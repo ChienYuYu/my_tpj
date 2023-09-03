@@ -3,7 +3,8 @@
     <div class="header"></div>
     <div class="wrap">
       <div class="side-menu">
-        <router-link to="/20230816/ChartTest01">chart01</router-link>
+        <router-link to="/20230816/ChartTest01">chart</router-link>
+        <router-link to="/20230903/ScrollTest">scroll</router-link>
       </div>
       <div class="content">
         <router-view/>
@@ -19,6 +20,7 @@
 }
 a{
   text-decoration: none;
+  margin: 2rem 0;
 }
 .header{
   width: 100%;
