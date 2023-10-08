@@ -24,6 +24,11 @@ const routes = [
     path: '/20230903/ScrollTest',
     name: 'chart01',
     component: () => import(/* webpackChunkName: "about" */ '../views/20230903/ScrollTest.vue')
+  },
+  {
+    path: '/20231008/ScreenWidth',
+    name: 'ScreenWidth',
+    component: () => import(/* webpackChunkName: "about" */ '../views/20231008/ScreenWidth.vue')
   }
 ]
 
